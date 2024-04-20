@@ -85,9 +85,6 @@ sudo ln -s /etc/machine-id /var/lib/dbus/machine-id
 # cleans out all of the cloud-init cache / logs - this is mainly cleaning out networking info
 sudo cloud-init clean --logs
 
-# remove netplan file
-sudo rm /etc/netplan/*.yaml
-
 # cleanup shell history
 cat /dev/null > ~/.bash_history && history -c
 
