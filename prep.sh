@@ -13,7 +13,7 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # basic OS packages
-sudo apt install nfs-common net-tools open-vm-tools
+sudo apt install nfs-common net-tools open-vm-tools -y
 
 
 # cleanup
